@@ -135,7 +135,7 @@ public void approveInbound(Long inboundId) {
 }
 ```
 
-### **2. N+1 쿼리 문제 최적화**
+### **2. 반복적인 DB 조회 최적화**
 **문제상황**: 반복문에서 매번 DB 조회로 인한 성능 저하
 ```java
 // 해결방안: 캐시 도입
